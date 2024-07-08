@@ -1,0 +1,53 @@
+/* Recipe Page Styles */
+
+body {
+    background-color: #FFFFFF;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    background: url('http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg') repeat fixed;
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 0.25em;
+}
+
+h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 18pt;
+    text-align: left;
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin-left: 20px;
+    list-style-image: url('http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/pie_icon.gif');
+}
+
+abbr[title] {
+    text-decoration: underline dotted;
+    cursor: help;
+}
+
+strong {
+    font-weight: bold;
+}
+
+pre {
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+a {
+    color: #A4A400;
+}
